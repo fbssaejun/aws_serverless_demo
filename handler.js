@@ -16,7 +16,7 @@ module.exports.hello = async (event) => {
   // return { message: 'Go Serverless v1.0! Your function executed successfully!', event };
 };
 
-module.exports.imageRezise = async (event) => {
+module.exports.imageResize = async (event) => {
   return {
     statusCode: 200,
     body: JSON.stringify(
