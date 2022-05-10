@@ -53,6 +53,12 @@ functions:
           path: /
           method: get
   imageResize:
+    handler: handler.author
+    events:
+      - http:
+          path: /author
+          method: get
+  imageResize:
     handler: handler.imageResize
     events:
       - http:
